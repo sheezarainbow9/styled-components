@@ -9,10 +9,10 @@ import { Icone } from "../Components/UI";
 export default (type) => {
   const Images = {
     Restaurante: <Icone src={alimentacao} alt="Restaurante" />,
-    Restaurante: <Icone src={outros} alt="Outros" />,
-    Restaurante: <Icone src={saude} alt="Saúde" />,
-    Restaurante: <Icone src={transporte} alt="Transporte" />,
-    Restaurante: <Icone src={utilidades} alt="Utilidades" />,
+    Outros: <Icone src={outros} alt="Outros" />,
+    Saude: <Icone src={saude} alt="Saúde" />,
+    Transporte: <Icone src={transporte} alt="Transporte" />,
+    Utilidades: <Icone src={utilidades} alt="Utilidades" />,
   };
 
   return Images[type] || Images.default;
