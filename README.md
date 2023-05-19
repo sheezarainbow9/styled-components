@@ -15,7 +15,6 @@ Repositório 03 do curso de React-JS da Alura-One.
 
 Desenvolvendo em React-JS, abstraindo o CSS com Styled Components.
 
-## Deploy da Aplicação :dash:
 
 
 
